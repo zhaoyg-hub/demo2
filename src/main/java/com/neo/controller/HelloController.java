@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Controller
 public class HelloController {
-
     @RequestMapping("/")
     public String cvp() {
         return "cvp.html";
