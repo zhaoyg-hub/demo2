@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Controller
 public class HelloController {
 
-    @RequestMapping("/")
+    @RequestMapping("/cvp")
     public String cvp() {
         return "cvp.html";
     }
